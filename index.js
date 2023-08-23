@@ -40,5 +40,4 @@ questions().then((answers) => {
 
 
 
-function init() { }
-init();
+
