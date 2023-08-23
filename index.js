@@ -33,7 +33,7 @@ questions().then((answers) => {
     } 
     
     const generated = generateShapes(answers);
-    fs.writeFileSync('logo.svg', generated);
+    fs.writeFileSync('./dist/logo.svg', generated);
     console.log('Success! your svg file has been generated!');
 });
 
